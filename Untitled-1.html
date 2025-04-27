@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TikTok - Inscription</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000000, #333333);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .container {
+            background-color: #1c1c1c;
+            padding: 40px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+        }
+        .container img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .container h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        .container p {
+            font-size: 14px;
+            color: #aaaaaa;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #333333;
+            color: white;
+        }
+        button {
+            width: 100%;
+            background-color: #fe2c55;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #e02046;
+        }
+        .login {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .login a {
+            color: #fe2c55;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/TikTok_logo.svg" alt="TikTok Logo">
+    <h1>Inscription</h1>
+    <p>Créez un compte pour découvrir des vidéos et en partager avec d'autres utilisateurs.</p>
+
+    <form action="#" method="post">
+        <input type="text" name="nom_utilisateur" placeholder="Nom d'utilisateur" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="mot_de_passe" placeholder="Mot de passe" required>
+        <button type="submit">S'inscrire</button>
+    </form>
+
+    <div class="login">
+        Vous avez déjà un compte ? <a href="#">Connectez-vous</a>
+    </div>
+</div>
+
+</body>
+</html>
